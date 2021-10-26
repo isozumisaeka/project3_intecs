@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* html *{
+	outline: 1px dotted red;
+} */
+
+.header{
+	display: flex;
+	justify-content:space-between;
+	/* color:red; */
+}
+
+.wrapper{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.header a{
+	text-decoration:none;
+}
+
+.book {
+	flex-wrap: wrap;
+	display: inline-block;
+	margin: 10px;
+	width: 250px;
+	height: 400px;
+}
+
+.book_img img{
+	display: center;
+	margin: 0 auto;
+}
